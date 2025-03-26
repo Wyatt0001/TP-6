@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>SFCV : contact</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <img src="../images/logo.png" alt="logo">
+    <h1>SFCV</h1>
+    <h3>N°1 des Caves à Vin</h3>
+    <hr>
+    <ul>
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="./produits.html">Produits</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <h2>Demande de catalogue</h2>
+    <p>
+      Demandez-nous vite votre catalogue gratuit !<br>
+      Il vous sera livré dans les meilleurs délais.
+    </p>
+    <form action="/submit" method="post">
+      <label for="civilite">Civilité :</label>
+      <select id="civilite" name="civilite">
+        <option value="M">Monsieur</option>
+        <option value="Mme">Madame</option>
+      </select><br><br>
+
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required><br><br>
+
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required><br><br>
+
+      <label for="adresse">Adresse :</label>
+      <input type="text" id="adresse" name="adresse" required><br><br>
+
+      <label for="ville">Ville :</label>
+      <input type="text" id="ville" name="ville" required><br><br>
+
+      <label for="code_postal">Code postal :</label>
+      <input type="text" id="code_postal" name="code_postal" required><br><br>
+
+      <input type="checkbox" name="newsletter" value="oui"> Je souhaite recevoir la newsletter - 
+      <label for="courriel">courriel :</label>
+      <input type="text" id="courriel" name="courriel" required><br><br>
+
+      <input type="submit" value="Envoyer">
+    </form>
+    <p>
+      Ce site a fait l'objet d'une déclaration auprès de la Commission Nationale Informatique et Libertés (CNIL). Conformément aux dispositions de la loi Informatique et Libertés du 8 janvier 1978, vous disposez d'un droit de modification, de rectification et d'opposition/suppression des données vous concernant, sur simple demande à info@sfcv.com.
+    </p>
+    <p>
+      N'hésitez pas à prendre contact avec l'équipe SFCV. Nous répondrons à toutes vos questions sur l'aménagement de votre cave ou le choix de votre armoire à vin. Tous les conseils de professionnels pour conserver vos meilleurs vins en toute sécurité pour le plaisir de les déguster en toute convivialité.
+    </p>
+    <hr>
+    <p>
+      © SFCV - <a href="../mentions.html">Mentions légales</a>
+    </p>
+    <p>
+      L'abus d'alcool est dangereux pour la santé, à consommer avec modération.
+    </p>
+  </body>
+</html>
